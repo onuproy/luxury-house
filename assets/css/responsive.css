@@ -1,0 +1,11 @@
+@media all and (min-width: 1501px) {
+ 
+}
+@media all and (max-width: 1266px) {
+	.main_manu ul li a {
+		font-size: 14px;
+		margin-right: 25px;
+	}
+
+}
+
