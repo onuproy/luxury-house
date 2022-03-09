@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Ananda';
+    src: url('AnandaBlack.woff2') format('woff2'),
+        url('AnandaBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ananda';
+    src: url('Ananda.woff2') format('woff2'),
+        url('Ananda.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('ArialMT.woff2') format('woff2'),
+        url('ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

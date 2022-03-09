@@ -1,28 +1,14 @@
 jQuery(document).ready(function(){ 
 
 	// Home owlCarousel
-	jQuery('.blog_slider').owlCarousel({
+	jQuery('.hero_slider_image_area').owlCarousel({
 		loop:true,
 		margin:25,
 		nav:true,
+		items:1,
 		autoplay:false,
-		navText:['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+		navText: ['<img src="assets/images/icon/angle-left.png">','<img src="assets/images/icon/angle-right.png">'],
 		dots:false,
-		responsive:{
-			0:{
-				items:1,
-			},
-			576:{
-				items:2,
-			
-			},
-			768:{
-				items:2,
-			},
-			1200:{
-				items:3,
-			}
-		}
 	});
 
 	// IsoTope
