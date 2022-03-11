@@ -266,15 +266,17 @@ img{
 	transition: 0.3s;
 }
 .select_item .form-select {
-	color: #000000;
-	font-size: 23px;
+	color: #7A7878;
+	font-size: 15px;
 	line-height: 22px;
-	font-weight: 700;
+	font-weight: 400;
 	border: 0px solid transparent;
 	padding: 17px 11px;
 	text-transform: capitalize;
 	background-image: none;
 	border-radius: 0;
+	padding-left: 0;
+	padding-bottom: 0;
 }
 .select_item {
 	position: relative;
@@ -286,12 +288,29 @@ img{
 	width: 11px;
 	background-size: 100% 100%;
 	top: 25px;
-	right: 20px;
+	right: 70px;
 	z-index: 99;
 	height: 8px;
+	pointer-events: none;
 }
+.destination_imtes h2 {
+	color: #000000;
+	font-size: 23px;
+	line-height: 22px;
+	font-weight: 700;
+	text-align: left;
+}
+.select_item input {
+	border: none;
+	padding: 17px 11px;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+
+
 .form-select option{
-  font-size: 18px;
+  font-size: 16px;
 }
 .content_maintenant h5 {
 	color: #FFF;

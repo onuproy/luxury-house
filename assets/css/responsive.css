@@ -27,7 +27,7 @@
 		        flex: 0 0 25%;
 		max-width: 25%;
 		width: 100%;
-		padding: 17px 7px;
+		padding: 17px 17px;
 		text-align: center;
 	}
 }
@@ -53,12 +53,14 @@
 	.select_item .form-select {
 		font-size: 16px;
 		padding: 7px 11px;
+		padding-left: 0;
 	}
 	.form-select option{
 		font-size: 16px;
 		}
 	.select_item::after {
 		top: 14px;
+		right: 15px;
 	}
 	.content_maintenant h5 {
 		font-size: 16px;
@@ -84,6 +86,28 @@
 	.footer_item {
 		margin-bottom: 40px;
 	}
+	.destination_imtes {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 25%;
+		flex: 0 0 25%;
+		max-width: 25%;
+		width: 100%;
+		padding: 17px 6px;
+		text-align: center;
+	}
+	.destination_imtes h2 {
+		font-size: 20px;
+		line-height: 17px;
+	}
+	.select_item input {
+		border: none;
+		font-size: 16px;
+		padding: 7px 11px;
+		padding-left: 0;
+	}
+
+
+
 }
 
 @media all and (max-width: 767px) {
@@ -166,6 +190,12 @@
 		width: 100%;
 		margin-bottom: 30px;
 	}
+	.select_item {
+		text-align: left;
+	}
+	.destination_imtes {
+		padding: 17px 20px;
+	}
 }
 
 @media all and (max-width: 575px) {
@@ -185,6 +215,9 @@
 	.footer_item h1 {
 		font-size: 25px;
 		padding-bottom: 15px;
+	}
+	.owl-nav button img {
+		width: 16px;
 	}
 
 
